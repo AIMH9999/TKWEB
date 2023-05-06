@@ -1,0 +1,134 @@
+body{
+    padding:0px; 
+    margin: 0px;
+    color: rgb(19, 16, 16);
+}
+
+/* Global */
+section .container{
+    margin: 50px;
+}
+
+ul{
+  
+}
+
+.button_1{
+    height: 30px;
+    background-color: rgb(243, 9, 9);
+
+}
+
+.dark{
+    background-color: rgb(246, 199, 8);
+    padding: 10px;
+    
+}
+
+/* Header **/
+header{
+    
+    background-color: rgb(246, 143, 0);
+    border-bottom: 1px solid  rgb(0, 0, 0);
+    height: 100px;
+    /* margin: 0px; */
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(3, 22, 19);
+
+}
+
+header li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header #branding{
+  
+}
+
+header #branding h1{
+    display: inline-block;
+    margin-left: 50px;
+    line-height: 50px;
+
+    color: rgb(3, 22, 19);
+}
+
+header nav{
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px;
+
+}
+
+header .highlight, header .current a{
+    color: rgb(255, 0, 0);
+
+}
+
+header a:hover{
+    color: rgb(255, 253, 105);
+}
+
+/* Showcase */
+#showcase{
+    background-image: url(../img/showcase.jpg);
+    height: 450px;
+    background-position: center;
+    padding: 10px;
+}
+
+#showcase h1{
+    font-size: 50px;
+    text-align:center;
+    font-style:oblique;
+    
+    color:rgb(74, 198, 251);
+
+}
+
+#showcase p{
+    font-style:oblique;
+    font-size: 30px;
+    text-align:center;
+    color: rgb(232, 252, 49);
+}
+
+/* Newsletter */
+#newsletter{
+    background-color: rgb(251, 149, 7);
+    height: 70px;
+    padding-top: 10px;
+}
+
+#newsletter h1{
+    margin-top:-30px;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: -50px;
+    margin-right: 150px;
+
+}
+
+#newsletter input[type="email"]{
+    border: 1px solid  rgb(208, 10, 10);
+    height: 25px;
+    width: 300px;
+}
+
+
+footer{
+    background-color: rgb(230, 118, 27);
+    text-align: center;/* padding-left: 500px; */
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+}
+

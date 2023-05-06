@@ -1,0 +1,105 @@
+body{
+    padding:0px; 
+    margin: 0px;
+
+}
+
+/* Global */
+section .container{
+    margin: 50px;
+}
+
+ul{
+  
+
+}
+
+
+
+/* Header **/
+header{
+    background-color: rgb(246, 143, 0);
+    border-bottom: 1px solid  rgb(0, 0, 0);
+    height: 100px;
+    /* margin: 0px; */
+
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(3, 22, 19);
+
+}
+
+header li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+header #branding{
+  
+
+}
+
+header #branding h1{
+    display: inline-block;
+    margin-left: 50px;
+    line-height: 50px;
+
+    color: rgb(3, 22, 19);
+
+}
+
+header nav{
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px;
+
+}
+
+header .highlight, header .current a{
+    color: rgb(255, 0, 0);
+
+}
+
+header a:hover{
+    color: rgb(255, 253, 105);
+}
+
+/* Showcase */
+#showcase{
+    background-image: url(../img/showcase.jpg);
+    height: 450px;
+    background-position: center;
+    padding: 10px;
+}
+
+#showcase h1{
+    font-size: 50px;
+    text-align:center;
+    font-style:oblique;
+    color:rgb(74, 198, 251);
+
+
+}
+
+#showcase p{
+    font-style:oblique;
+    font-size: 30px;
+    text-align:center;
+    color: rgb(232, 252, 49);
+}
+
+
+footer{
+    background-color: rgb(230, 118, 27);
+    height: 60px;
+    text-align: center;/* padding-left: 500px; */
+    padding-top: 30px;
+    font-size: 20px;
+
+}
+
