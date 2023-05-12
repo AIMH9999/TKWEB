@@ -1,0 +1,89 @@
+body{
+    padding:0px; 
+    margin:0px;
+}
+
+/* Global */
+section .container{
+    margin:40px;
+}
+
+ul{
+  
+
+}
+
+/* Header **/
+header{
+    background-color:rgb(246, 143, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height:100px;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+}
+
+header li{
+    display: inline-block;
+    margin:10px;
+}
+
+header #branding{
+  
+
+}
+
+header #branding h1{
+    display: inline-block;
+    margin-left:50px;
+    line-height:50px;
+    color: rgb(0, 0, 0);
+}
+
+header nav{
+    float: right;
+    margin-top:-75px;
+    margin-right:50px;
+}
+
+header .highlight, header .current a{
+    color: rgb(255, 0, 0);
+
+}
+
+header a:hover{
+    color: rgb(255, 253, 105);
+}
+
+/* Showcase */
+#showcase{
+    background-image: url(../img/showcase.jpg);
+    height:400px;
+    background-position: center;
+    padding:10px;
+}
+
+#showcase h1{
+    font-size:50px;
+    text-align:center;
+    color:rgb(74, 198, 251);
+}
+
+#showcase p{
+    font-size:30px;
+    text-align:center;
+    color: rgb(232, 252, 49);
+}
+
+footer{
+    background-color: rgb(230, 118, 27);
+    height: 75px;
+    text-align:center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
