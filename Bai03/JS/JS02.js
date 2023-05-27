@@ -4,8 +4,7 @@ function timGiaTriLonNhat(a) {
   for (let i = 1; i < 10; i++) {
     if (max < a[i]){
       max = a[i];
-    }
-      
+    }      
   }
   return max;
 }
