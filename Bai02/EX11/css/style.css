@@ -192,6 +192,9 @@ footer{
 	#newsletter h1{
 		margin-top: -45px;
 	}
+	ul#services li {
+		height: 130px;
+	}
 }
 
 
