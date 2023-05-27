@@ -4,15 +4,15 @@ class TaiKhoanNganHang {
   }
 
   guiTien(soTien) {
-    this.so_du_tk += soTien; // Thay đổi += để cộng số tiền gửi vào số dư hiện có
+    this.so_du_tk += soTien;
   }
 
   rutTien(soTien) {
-    this.so_du_tk -= soTien; // Thay đổi -= để trừ số tiền rút khỏi số dư hiện có
+    this.so_du_tk -= soTien;
   }
 
   kiemTraSoDu() {
-    return this.so_du_tk; // Không cần phải tính toán lại số dư từ số tiền gửi và số tiền rút
+    return this.so_du_tk;
   }
 }
 
